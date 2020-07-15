@@ -17,3 +17,30 @@ Write out each endpoint, its method, and brief description of waht it should do.
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
 ## Your Answer
+
+|--------------|------|------------------------------------------------------------|
+|`/customers` |`GET` |It gives a list a customers |
+|`/customers/:id` |`DELETE` | |It deletes the specific customer |
+|`/customer/:id?property=value`| `PATCH`|It updates a specific property of the user |
+|`/customers` |`POST` |It adds a new customer to the list |
+|-----------------------------|---------|---------------------------------------------|
+|`/stock` |`GET` | It gives entire list of all the inventory |
+|`/stock/:id` |`GET` | It gives the specific stock |
+|`/stock/:id` |`DELETE` | It deletes the specific stock from the list.|
+|`/stock/:id?property=value` |`PATCH` | It updates the stock amount. |
+|`/stock` |`POST` | It adds new stock to the list. |
+|-----------------------------|---------|---------------------------------------------|  
+|`/seating` |`GET` | It gives the list of number of seats. |
+|`/seating/reserved` |`GET` | It gives the list of all reserved seats. |
+|`/seating/available` |`GET` | It gives the list of all available seats. |
+|`/seating/reserve` |`PATCH` | To reserve a seat. |
+|`/seating/cancel` |`PATCH` | to cancel a reservation. |
+|`/seating/remove` |`DELETE` | to remove a seat. |
+|`/seating/add` |`POST` | To make the seat available again. |
+| |
+|`/employees` |`GET` | To get the list of all the employees. |
+|`/employees/:id` |`GET` | TO get a specific employee. |
+|`/employees/:id?property=value` |`PATCH`| It updates the employee information. |
+|`/employees/:id` |`DELETE`| To delete a particular employee. |
+|`/emplyees/create` |`POST` | to create a new employee. |
+|-----------------------------|---------|---------------------------------------------|
